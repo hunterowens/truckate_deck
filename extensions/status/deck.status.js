@@ -51,7 +51,7 @@ This module adds a (current)/(total) style status indicator to the deck.
 		
 		// Set total slides once
 		if (opts.countNested) {
-			$(opts.selectors.statusTotal).text(slides.length);
+			$(opts.selectors.statusTotal).text(slides.length - 1);
 		}
 		else {
 			/* Determine root slides by checking each slide's ancestor tree for
