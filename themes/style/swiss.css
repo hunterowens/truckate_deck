@@ -9,7 +9,8 @@
     .deck-container .slide h2 {
       color: #c00; }
     .deck-container .slide h3 {
-      color: #888; }
+      color: #ccc;
+      margin-bottom: -40px; }
     .deck-container .slide pre {
       border-color: #ccc; }
     .deck-container .slide code {
